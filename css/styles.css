@@ -7,13 +7,17 @@ body{
 h1,h2,h3,h4{
     font-family: 'Montserrat-Bold', sans-serif;
 }
+p{
+    font-weight: 500;
+    color: black;
+}
 
 /* Containers */
 .container-fluid{
     padding: 7% 15%;
 }
 .colored-section{
-    background-color: #ff4c68;
+    background-color: #0E9594;
     color: white;
 }
 .white-section{
@@ -85,7 +89,7 @@ h1,h2,h3,h4{
     font-weight: 700;
 }
 .text{
-    color: #8f8f8f;
+    color: black;
     width: 15rem;
     margin: 0 auto;
     font-weight: 700;
@@ -93,12 +97,12 @@ h1,h2,h3,h4{
 
 }
 .features-icon{
-    color: #ef8172;
+    color: #0E9594;
     display: block;
     padding-bottom: 20px;
 }
 .features-icon:hover{
-    color: #ef4c68;
+    color: #127475;
 }
 #features{
     position: relative;
@@ -109,7 +113,7 @@ h1,h2,h3,h4{
 /* Testimonials */
 
 #testimonials {
-    background-color: #ef8172;
+    background-color: #0E9594;
 }
 .testimonial-image {
     width: 10%;
@@ -117,7 +121,7 @@ h1,h2,h3,h4{
     margin: 20px;
 }
 #press{
-    background-color: #ef8172;
+    background-color: #0E9594;
     padding: 3%;
 }
 .press-logo{
